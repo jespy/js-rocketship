@@ -47,3 +47,5 @@ var changeState = function (state) {
 					
 				}, 2000);
 	};
+}
+
