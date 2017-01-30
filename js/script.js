@@ -12,7 +12,7 @@ var changeState = function (state) {
 		timer = setInterval(function () {
 			countdownNumber = countdownNumber -1;
 			document.getElementById('countdown').innerHTML = countdownNumber;
-				
+				document
 				if (countdownNumber > 4 && countdownNumber <= 7) {
 					// be nervous
 					document.getElementById('nervous').className = 'nervous show';
