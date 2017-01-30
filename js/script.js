@@ -6,12 +6,12 @@ var changeState = function (state) {
 	clearInterval(timer);
 	countdownNumber = 10;
 	document.getElementById('countdown').innerHTML = countdownNumber;
-};
+
 	//countdown
-	if(state == 2) {
+	if(state ==2) {
 		timer = setInterval(function () {
-				countdownNumber = countdownNumber -1;
-				document.getElementById('countdown').innerHTML = countdownNumber;
+			countdownNumber = countdownNumber -1;
+			document.getElementById('countdown').innerHTML = countdownNumber;
 			
 				if (countdownNumber > 4 && countdownNumber <= 7) {
 					// be nervous
